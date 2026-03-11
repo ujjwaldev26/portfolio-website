@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ujjwal Anand | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
 
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h2 class="logo">Ujjwal Anand</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
   <header>
     <div class="container hero">
       <div class="hero-text">
         <h1>Ujjwal Anand</h1>
         <h3>Bachelor of Computer Application</h3>
         <p>Aspiring Full Stack Developer</p>
-        <a href="#contact" class="btn">Hire Me</a>
       </div>
       <div class="hero-img">
-        <img src="profile.jpg" alt="Ujjwal Anand">
+        <img src="profile.jpg.jpeg" alt="Ujjwal Anand">
       </div>
     </div>
   </header>
 
-  <section class="about container">
+  <!-- About -->
+  <section id="about" class="about container">
     <h2>About Me</h2>
     <p>
-      I am a passionate Frontend Developer skilled in HTML, CSS and JavaScript.
+      I am a passionate Frontend Developer skilled in HTML, CSS, and JavaScript.
       I love building responsive and user-friendly websites.
       Currently pursuing BCA and aiming to become a professional Full Stack Developer.
     </p>
   </section>
 
-  <section class="skills">
+  <!-- Skills -->
+  <section id="skills" class="skills">
     <div class="container">
       <h2>Technical Skills</h2>
       <div class="skill-grid">
-        <div class="card">HTML5</div>
-        <div class="card">CSS3</div>
-        <div class="card">JavaScript</div>
-        <div class="card">Responsive Design</div>
-
-        <div class="card">Basic Git</div>
+        <div class="card"><i class="fa-brands fa-html5"></i> HTML5</div>
+        <div class="card"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+        <div class="card"><i class="fa-brands fa-js"></i> JavaScript</div>
+        <div class="card"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</div>
+        <div class="card"><i class="fa-brands fa-git-alt"></i> Basic Git</div>
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact" class="contact container">
     <h2>Contact</h2>
-    <p>Email: ujjwalanxd@gmail.com</p>
-    <p>Mobile: 8271279851</p>
+    <p>Email: <a href="mailto:ujjwalanxd@gmail.com">ujjwalanxd@gmail.com</a></p>
+    <p>Mobile: <a href="tel:+918271279851">+91 8271279851</a></p>
+    <p>
+      <a href="https://github.com/ujjwal-anand" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a> |
+      <a href="https://linkedin.com/in/ujjwal-anand" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2026 Ujjwal Anand | All Rights Reserved</p>
   </footer>
 
 </body>
-
 </html>
